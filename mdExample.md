@@ -10,14 +10,19 @@ This would be just as a paragraph.
 
 **They ~~cannot~~ *can* be mixed**
 
+## Ordered list
 No need to specify the order - it's done automatically.
 1. First example. 
-	1. Nesting
+	1. [Unordered List](#unordered-list)
 	1. is
 	1. really
 	1. easy
 1. Second example
 1. Third example
+
+## Unordered List
+- Just
+- Simple
 
 ## Code block example is done with backticks 
 
@@ -35,7 +40,14 @@ Horizontal line below
 
 ---
 
-> using a block code with arrow right 
-and it continues on another line
->
--- <cite> Mike </cite>
+> Distance doesn't make you any smaller, 
+but it does make you part of a larger picture.
+
+-- <cite> Fortune Cowsay </cite>
+
+You can also nest block quotes inside the block quotes
+> Nesting
+>> inside block quotes
+>>> as far as u want
+
+
