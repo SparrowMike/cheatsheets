@@ -14,7 +14,7 @@ This would be just as a paragraph.
 No need to specify the order - it's done automatically.
 1. First example. 
 	1. [Unordered List](#unordered-list)
-	1. is
+	1. [Should accept anything](#code-block-example-is-done-with-backticks)
 	1. really
 	1. easy
 1. Second example
