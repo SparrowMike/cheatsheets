@@ -60,11 +60,30 @@ you can make image clicable
 You can use HTML inside md.
 
 ## Roadmap
+
 - [ ] Task #1
 - [x] Task #2
 
 ## Table
 
-|Name |Current State|Next State|
-|:----|:------------|:---------|
-|Green|    Green    |  Yellow  |
+|Name  |Current State|Next State|
+|:-----|:------------|:---------|
+|Green |    Green    |  Yellow  |
+|Yellow|   Purple    |   Green  |
+
+## Collapsible element
+
+<details>
+    <summary>Section Header</summary>
+        Section body text
+        - Add as many as u need
+</details>
+
+## Foot notes
+
+Happy trees are happy [^1]
+
+## Footer
+
+[^1]: By Bob Ross 
+
