@@ -10,6 +10,10 @@ This would be just as a paragraph.
 
 **They ~~cannot~~ *can* be mixed**
 
+[hyper link](gooogle.com)
+
+![for image](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*)
+
 ## Ordered list
 No need to specify the order - it's done automatically.
 1. First example. 
