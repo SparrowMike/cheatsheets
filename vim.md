@@ -10,7 +10,7 @@ combine to be "delete word"
 ## Verbs in Vim
 - d => delete
 - c => change (delete and enter insert mode)
-- > => indent
+- '>' => indent
 - v => visually select
 - y => yank (copy)
 
