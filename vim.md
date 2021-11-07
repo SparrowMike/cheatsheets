@@ -44,4 +44,4 @@ combine to be "delete word"
 </ul>
 </div>
 
-(Tips for mastering the language)[https://www.youtube.com/watch?v=wlR5gYd6um0]
+[Tips for mastering the language](https://www.youtube.com/watch?v=wlR5gYd6um0)
