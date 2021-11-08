@@ -44,4 +44,7 @@ combine to be "delete word"
 </ul>
 </div>
 
+
+alternative to esc => Ctrl-[ 
+
 [Tips for mastering the language](https://www.youtube.com/watch?v=wlR5gYd6um0)
