@@ -4,9 +4,9 @@
 
 1. [Check terminal mode ( for M1 only )](#terminal)
 1. [Homebrew](#homebrew)
-1. [Git installation and configuration](#git_installation_and_configuration)
-1. [Install Node](#install_node)
-1. [Visual Studio Code](#visual_studio_code)
+1. [Git installation and configuration](#git-installation-and-configuration)
+1. [Install Node](#install-node)
+1. [Visual Studio Code](#visual-studio-code)
 1. [Slack](#slack)
 
 ---
@@ -20,7 +20,7 @@ You can check by running this command inside your terminal:
 uname -m
 ```
 
-It should say arm64 if you are on an M1 Mac. If it says x86_4, that means Terminal is in Rosetta mode.
+It should say arm64 if you are on an M1 Mac. If it says x86_64, that means Terminal is in Rosetta mode.
 
 <details>
     <summary>To turn off, Rosetta, follow these instructions:</summary>
