@@ -2,7 +2,7 @@
 
 ## Installation steps
 
-1. [Check terminal mode ( for M1 only )](#terminal)
+1. [Check terminal mode ( for M1 only )](#terminal-for-m1-only)
 1. [Homebrew](#homebrew)
 1. [Git installation and configuration](#git-installation-and-configuration)
 1. [Install Node](#install-node)
@@ -11,7 +11,7 @@
 
 ---
 
-### Terminal
+### Terminal For M1 only
 
 If you are on an M1 Mac, make sure Terminal is NOT Rosetta mode.
 You can check by running this command inside your terminal:
