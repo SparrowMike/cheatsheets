@@ -11,7 +11,7 @@
 
 ---
 
-### Terminal For M1 only
+### Terminal for M1 only
 
 If you are on an M1 Mac, make sure Terminal is NOT Rosetta mode.
 You can check by running this command inside your terminal:
@@ -50,7 +50,7 @@ It should say arm64 if you are on an M1 Mac. If it says x86_64, that means Termi
                 Launch Terminal
             </li>
             <li>
-                Run uname -m. It should now say arm64 and you can proceed with the rest of this guide.
+                Run `uname -m`. It should now say arm64 and you can proceed with the rest of this guide.
             </li>
         </ol>
     </summary>
