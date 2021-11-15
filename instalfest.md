@@ -157,7 +157,7 @@ After completed installation navigate to top left corner click on Terminal/Prefe
 *IMPORTANT - make sure you quit and reopen your terminal for changes to take effect*
 
 If successful your terminal should look like this:
-![Starship](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif)
+![Starship](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif =750x450)
 
 
 ---
