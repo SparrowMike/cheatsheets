@@ -5,9 +5,12 @@
 1. [Check terminal mode ( for M1 only )](#terminal-for-m1-only)
 1. [Homebrew](#homebrew)
 1. [Git installation and configuration](#git-installation-and-configuration)
-1. [Install Node](#install-node)
+1. [Volta](#volta)
 1. [Visual Studio Code](#visual-studio-code)
+1. [Fonts](#fonts)
+1. [Starship](#starship)
 1. [Slack](#slack)
+1. [Google Chrome](#google-chrome)
 
 ---
 
@@ -109,32 +112,84 @@ git config --global credential.helper osxkeychain
 
 ---
 
-## Node
+## Volta
 
-To install Nodejs
+To install Volta run the following commands inside the temrinal
 
 ```bash
-brew install node
+curl https://get.volta.sh | bash
 ```
+
+and then
+```bash
+volta install node
+```
+
+To confirm everything worked use the following command
+```bash
+which node
+```
+
+The output should be something like this => `/Users/<currentUser>/.volta/bin/node`
+
+You can also check what version of node you're currently running with `node --version` - it should be `v16.13.0`
+
+---
+
+## Fonts
+
+```bash
+brew tap homebrew/cask-fonts
+
+brew install --cask font-fira-code-nerd-font
+```
+
+---
+
+## Starship
+
+```bash
+brew install starship
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+```
+After completed installation navigate to top left corner click on Terminal/Preferences/Profile/Font/Change/Search => FiraCode Nerd Font
+
+*IMPORTANT - make sure you quit and reopen your terminal for changes to take effect*
+
+If successful your terminal should look like this:
+![Starship](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif)
+
+
+---
 
 ## Visual Studio Code
 
 We'll be running Visual Studio Code (_not Visual Studio_), as the text editor of choice.
 
-To install Visual Studio Code run the following command innisde the terminal:
 ```bash
 brew install --cask visual-studio-code
 ```
 
 [Follow Installation instructions and set up Launching from command line.](https://code.visualstudio.com/docs/setup/mac)
 
+---
+
 ## Slack
 
 We will be using slack to communicate throughout the course. You should've received an invite to our channels via e-mail. You can login via the web browser, but downloading / installing the app is highly recommended.
 
-To install Slack run the following command inside the terminal:
 ```bash
 brew install --cask visual-studio-code
 ```
+
+---
+
+## Google Chrome
+
+```bash
+brew install --cask google-chrom
+```
+
+##
 
 Hurray!! You have completed the first part of installation. Move on to installfest.md for the next set of installations.
