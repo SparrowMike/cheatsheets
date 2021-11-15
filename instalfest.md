@@ -158,7 +158,7 @@ After completed installation navigate to top left corner click on `Terminal/Pref
 
 If successful your terminal should look like this:
 
-<img src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif" width=750 height=450 >
+<img src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif" width=375 height=225 >
 
 ---
 
