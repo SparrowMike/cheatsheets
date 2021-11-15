@@ -152,13 +152,14 @@ brew install --cask font-fira-code-nerd-font
 brew install starship
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 ```
-After completed installation navigate to top left corner click on Terminal/Preferences/Profile/Font/Change/Search => FiraCode Nerd Font
+After completed installation navigate to top left corner click on `Terminal/Preferences/Profile/Font/Change/Search => FiraCode Nerd Font` 
 
 *IMPORTANT - make sure you quit and reopen your terminal for changes to take effect*
 
 If successful your terminal should look like this:
 ![Starship](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif =750x450)
 
+<img src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif" width=450 height=750 >
 
 ---
 
