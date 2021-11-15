@@ -16,7 +16,7 @@
 If you are on an M1 Mac, make sure Terminal is NOT Rosetta mode.
 You can check by running this command inside your terminal:
 
-```text
+```bash
 uname -m
 ```
 
@@ -64,7 +64,7 @@ Homebrew is a package manager that we will use to install various command line t
 
 Open up terminal, and paste the following command to install Homebrew. You might be prompted to install XCode Command Line Tools during the install process.
 
-```text
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
@@ -72,14 +72,14 @@ You may be prompted to installed XCode command line tools. When prompted, click 
 
 On Apple Silicon Macs, Homebrew might tell you to run a few commands after the installation:
 
-```text
+```bash
 echo "eval $(/opt/homebrew/bin/brew shellenv)" >> ~/.zprofile
 eval $(/opt/homebrew/bin/brew shellenv)
 ```
 
 Quit and restart Terminal, then check if everything is working so far:
 
-```text
+```bash
 brew doctor
 ```
 
@@ -93,13 +93,14 @@ Before we do this process, please make sure you have signed up for an account on
 
 ### To install GIT
 
-```text
+To install GIT run the following command inside the terminal: 
+```bash
 brew install git
 ```
 
 ### To congifure GIT
 
-```text
+```bash
 git config --global user.name YOUR-USERNAME
 git config --global user.email YOUR_EMAIL@ADDRESS
 git config --global push.default simple
@@ -112,7 +113,7 @@ git config --global credential.helper osxkeychain
 
 To install Nodejs
 
-```text
+```bash
 brew install node
 ```
 
@@ -120,14 +121,20 @@ brew install node
 
 We'll be running Visual Studio Code (_not Visual Studio_), as the text editor of choice.
 
-[Download VS Code](https://code.visualstudio.com/docs/setup/mac)
+To install Visual Studio Code run the following command innisde the terminal:
+```bash
+brew install --cask visual-studio-code
+```
 
-Follow Installation instructions and set up Launching from command line.
-
-Hurray!! You have completed the first part of installation. Move on to installfest.md for the next set of installations.
+[Follow Installation instructions and set up Launching from command line.](https://code.visualstudio.com/docs/setup/mac)
 
 ## Slack
 
 We will be using slack to communicate throughout the course. You should've received an invite to our channels via e-mail. You can login via the web browser, but downloading / installing the app is highly recommended.
 
-[Download Slack](https://slack.com/downloads)
+To install Slack run the following command inside the terminal:
+```bash
+brew install --cask visual-studio-code
+```
+
+Hurray!! You have completed the first part of installation. Move on to installfest.md for the next set of installations.
