@@ -6,11 +6,11 @@
 1. [Homebrew](#homebrew)
 1. [Git installation and configuration](#git-installation-and-configuration)
 1. [Volta](#volta)
-1. [Visual Studio Code](#visual-studio-code)
 1. [Fonts](#fonts)
 1. [Starship](#starship)
-1. [Slack](#slack)
-1. [Google Chrome](#google-chrome)
+1. [Visual Studio Code](#visual-studio-code)
+3. [Slack](#slack)
+4. [Google Chrome](#google-chrome)
 
 ---
 
