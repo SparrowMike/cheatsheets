@@ -152,7 +152,7 @@ brew install --cask font-fira-code-nerd-font
 brew install starship
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 ```
-After completed installation navigate to top left corner click on `Terminal/Preferences/Profile/Font/Change/Search => FiraCode Nerd Font` 
+After completed installation navigate to top left corner and select `Terminal/Preferences/Profile/Font/Change/Search => FiraCode Nerd Font` 
 
 *IMPORTANT - make sure you quit and reopen your terminal for changes to take effect*
 
@@ -192,4 +192,5 @@ brew install --cask google-chrom
 
 ##
 
-Hurray!! You have completed the first part of installation. Move on to installfest.md for the next set of installations.
+Hurray!! You have completed installfesst!
+ 
