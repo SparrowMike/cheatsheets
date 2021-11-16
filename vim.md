@@ -47,4 +47,10 @@ combine to be "delete word"
 
 alternative to esc => Ctrl-]
 
+## Deleting files with nerdTree 
+- m + a => create a new file/folder 
+- m + d => delete a file
+- m + m => rename 
+
+
 [Tips for mastering the language](https://www.youtube.com/watch?v=wlR5gYd6um0)
