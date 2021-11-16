@@ -1,6 +1,6 @@
-#! /bin/zsh
+#! /bin/bash
 
-#1. Commets 
+#1. Comments 
 : '
 Can simply print passed argument with echo ==> echo 'HelloWolrd'
 Single arror bracket will replace ==> cat > cat.txt 
@@ -13,7 +13,7 @@ Double arror bracket will append ==> cat >> cat.txt
 : '
 cat << multiLine
 This will allow you,
-to have a many lines
+to have as many lines
 as needed.
 multiLine
 '
@@ -66,6 +66,7 @@ esac '
 
 #6. Loops
 ## WHILE
+: '
 number=1
 while [ $number -lt 10 ]
 do
@@ -89,7 +90,6 @@ do
 done
 
 ### for loop alternative
-: '
 for i in {0..10..2} # {start..ending..increment}
 do
     echo "hello zsh $i"
@@ -102,11 +102,69 @@ for i in $(seq 1 2 20)
 do
    echo "Welcome $i times"
 done
-'
 
+
+### most common for loop
 for (( i=0; i<9; i++ ));
 do 
     echo "$i egg"
 done
+
+## BREAK and CONTINUE statments
+for (( i=0; i<=10; i++ ))
+do
+    if [ $i -eq 3 ] || [ $i -eq 7 ]
+    then
+        continue # will skip 3 and 7, break would simply stop at 2
+    fi
+    echo $i
+done
+'
+
+#7. Script input (STDIN)
+
+# args=("$@") # unlimited number of inputs
+# echo $0 $1 $2 $2
+# echo ${args[1]} ${args[2]} ${args[3]} 
+# echo $args
+# echo $# ==> # prints the length of the array-starts from 1
+
+: '
+while read line
+do
+    echo "$line"
+done < "${1:-/dev/stdin}" 
+'
+
+#8. Script output (STDOUT and STDERR)
+
+# ls -al >file1.txt 2>&1 <== same as ==>ls -al >&file1.txt
+
+#9. Pipes
+
+: '
+MESSAGE="Hello World"
+export MESSAGE
+./message.sh
+
+# sample from the other file
+echo "The message from helloBash.sh is $MESSAGE"
+'
+
+#10. String processing
+
+echo "enter 1st string"
+read st1
+
+echo "enter 2nd string"
+read st2
+
+if [ "$st1" == "$st2" ]
+then 
+    echo "string match"
+else
+    echo "string don't match"
+fi
+
 
 
