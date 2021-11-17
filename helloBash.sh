@@ -1,4 +1,7 @@
-#! /bin/bash
+#! /usr/bin/env bash
+
+
+
 
 #1. Comments 
 : '
@@ -159,12 +162,43 @@ read st1
 echo "enter 2nd string"
 read st2
 
+: '
+ex.1
 if [ "$st1" == "$st2" ]
 then 
     echo "string match"
 else
-    echo "string don't match"
+    echo "string do not match"
 fi
 
+ex.2
+if [ "$st1" \< "$st2" ]
+then
+    echo "$st1 is smaller than $st2"
+elif  [ "$st1" \> "$st2" ]
+then
+    echo "$st2 is smaller than $st1"
+else
+    echo "strings are equal"
+fi
+
+c=$st1$st2 => concatenate
 
 
+===!===
+echo ${st1^} => to upper case can also use ^^ to capitalize
+
+
+'
+
+# Below is old way
+# echo $name | tr '[:lower:]' '[:upper:]'
+# echo ${st1} | tr [a-z] [A-Z]
+# https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
+
+read -p "Enter some lowercase text: " text
+read -p "Which letter do you want to highlight?: " highlight
+echo "I have highlighted that letter for you:"
+echo ${text^^$highlight}
+
+# 1:15 => https://www.youtube.com/watch?v=e7BufAVwDiM
