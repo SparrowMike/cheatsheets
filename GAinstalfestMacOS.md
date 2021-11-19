@@ -187,7 +187,7 @@ brew install --cask visual-studio-code
 ## Google Chrome
 
 ```bash
-brew install --cask google-chrom
+brew install --cask google-chrome
 ```
 
 ##
